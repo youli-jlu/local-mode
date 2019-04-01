@@ -1,0 +1,7 @@
+  This program is made for partial hessian calculation.
+  hessian-read.f90 will read mass-wighted hessian from
+molpro-format-frequencies.out, you need to change mass-wighted line to ####
+for convenience.
+  hessian.f90 will calculate the partial hessian whose matrix element is
+selected in select.dat, and then we will diagonalize it by jacobi method.
+  Be careful of mass in select.dat and selected number in hessian.dat
